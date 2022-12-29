@@ -1,0 +1,98 @@
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  color: #1356d4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 5px #fff;
+}
+
+p {
+  margin: 20px;
+  text-align: center;
+  color:#fff;
+}
+
+.search {
+  display: flex;
+  width: 50%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #c460a6;
+  border: 3px solid #1356d4;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.price {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: yellow;
+  background-color: inherit;
+}
+
+.category, .rating {
+  background-color: inherit;
+  text-align: right;
+  color: #fff;
+}
+
+.rating {
+  font-weight: bold;
+  color: #085200;
+  text-align: center;
+}
+
+.description, .image {
+  margin: 10px;
+  text-align: justify;
+  font-size: 0.85rem;
+  background-color: inherit;
+}
+
+.image {
+  background-color: inherit;
+  text-align: center;
+}
+
+.link {
+  background-color: inherit;
+  color: #1356d4;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.link:hover {
+  text-shadow: 0px 1px 5px #fff, 0px -1px 5px #fff, 1px 0 5px #fff, -1px 0 5px #fff;
+}
+
+span {
+  background-color: inherit;
+  color: #000;
+  font-size: 0.85rem;
+  font-weight: normal;
+}

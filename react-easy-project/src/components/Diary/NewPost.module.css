@@ -1,0 +1,52 @@
+.addPostContainer {
+  width: 400px;
+  height: 275px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 3px solid #1356d4;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #fff;
+}
+
+.addTitle, .addDescription {
+  display: flex;
+  width: 90%;
+  margin: 20px auto 0;
+  padding: 10px;
+  background-color: #333;
+  color: #aaa;
+  font-size: 1rem;
+  font-weight: bold;
+  resize: none;
+}
+
+.addTitle {
+  height: 30px;
+}
+
+.addDescription {
+  height: 140px;
+}
+
+button.addPost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin: 10px auto 20px;
+  padding: 10px 15px;
+  background-color: #aaa;
+  color: #333;
+  border: 2px solid #aaa;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button.addPost:hover {
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+button.addPost:active {
+  transform: translateY(2px);
+}

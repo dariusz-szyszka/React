@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.container h1 {
+  margin: 1rem 0 2rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 5px solid #eca7d0;
+}
+
+.quote {
+  background-color: white;
+  border-radius: 1rem;
+  border: 2px solid #eca7d0;
+  box-shadow: 0 0 5px 3px white;
+}
+
+.text {
+  margin: 1rem 1rem 0;
+  text-align: justify;
+  font-style: italic;
+}
+
+.author {
+  margin: 0.5rem 1rem 1rem;
+  text-align: right;
+  font-weight: bold;
+}

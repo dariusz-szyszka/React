@@ -1,0 +1,77 @@
+.container {
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 0;
+}
+
+.container h1 {
+  margin: 1rem 0 2rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 5px solid #eca7d0;
+}
+
+.pic {
+  float: left;
+  max-width: 200px;
+  margin: 0 1rem;
+  opacity: 0.5;
+  cursor: pointer;
+  border: 2px solid #f7dcec;
+  border-radius: 10px;
+}
+
+.pic:hover {
+  opacity: 1;
+  border: 2px solid #eca7d0;
+  box-shadow: 0 0 5px 3px white;
+}
+
+.gallery {
+  pointer-events: fill;
+}
+
+.cross {
+  z-index: 2;
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  padding: 0.15rem;
+  color: #eca7d0;
+  background-color: #333;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.gallery img {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  border: 1px solid #eca7d0;
+  border-radius: 10px;
+  transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+  opacity: 1;
+  box-shadow: 0 0 5px 100vw rgba(51,51,51,0.85);
+  cursor: pointer;
+}
+
+.gallery span {
+  z-index: 2;
+  position: absolute;
+  bottom: 1vh;
+  transform: translateX(calc(50vw - 50%));
+  color: white;
+  font-size: .8;
+}
+
+
+.cross:hover {
+  box-shadow: 0 0 10px #f7dcec;
+}

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 3rem auto 0;
+  padding: 0.15rem 0.5rem 0;
+  justify-content: center;
+  width: fit-content;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-top: 2px solid #eca7d0;
+  border-left: 2px solid #eca7d0;
+  border-right: 2px solid #eca7d0;
+  box-shadow: 0 0 5px 3px white;
+  font-size: 0.8rem;
+}
+
+.container img {
+  height: 1.75rem;
+}
+
+.container p {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  width: 200px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: black;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #eca7d0;
+  background-color: white;
+}
+
+.btn:hover {
+  border: 2px solid black;
+}
+
+.active {
+  border: 2px solid black;
+  background-color: #eca7d0;
+}

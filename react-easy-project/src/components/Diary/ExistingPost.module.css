@@ -1,0 +1,52 @@
+.allPostsContainer {
+  width: 400px;
+  height: 275px;
+  margin: 20px auto;
+  background-color: #333;
+  border: 3px solid #1356d4;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #fff;
+}
+
+.existingTitle, .existingDescription {
+  display: flex;
+  width: 90%;
+  margin: 20px auto 0;
+  padding: 10px;
+  background-color: #aaa;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  resize: none;
+}
+
+.existingTitle {
+  height: 30px;
+}
+
+.existingDescription {
+  height: 140px;
+}
+
+button.removePost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin: 10px auto 20px;
+  padding: 10px 15px;
+  background-color: #aaa;
+  color: #333;
+  border: 2px solid #aaa;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button.removePost:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+button.removePost:active {
+  transform: translateY(2px);
+}
